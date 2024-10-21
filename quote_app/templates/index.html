@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container text-center mt-5">
+    <h1 class="mb-4">Random Quote Generator</h1>
+    <div class="quote bg-light p-4 rounded shadow-sm">
+        <h3>"{{ quote }}"</h3>
+        <p>- {{ author }}</p>
+    </div>
+    <a href="/" class="btn btn-primary mt-4">Get another quote</a>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+</body>
+</html>
